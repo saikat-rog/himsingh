@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
       <Hero/>
-      {/* Why my course */}
       <CourseBenefits />
       <Introduce/>
       <SpecialFeatures/>
