@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Grotesk;
+    src: url(/fonts/NHaasGroteskTXPro-55Rg.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-grotesk: Grotesk, "sans-serif";
+    --color-primary: #1D1D1F;
+    --color-secondary: #FF6E01;
+    --color-gray: #181818;
+    --color-gray2: #181818;
+}
+
+* {
+    font-family: var(--font-grotesk);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 17px;
+    /* text-align: justify; */
+    font-weight: 20;
+    color: #F5F5F5
+}
+
+li {
+    font-size: 17px;
+    /* text-align: justify; */
+    font-weight: 20;
+    color: #F5F5F5
+}
+
+span{
+    font-size: 20px;
+    font-weight: 20;
+}
+
+@media (max-width: 1024px) { /* Large screens (lg) */
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 18px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    li {
+        font-size: 18px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    span{
+        font-size: 20px;
+        font-weight: 20;
+    }
+}
+
+@media (max-width: 768px) { /* Medium screens (md) */
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    li {
+        font-size: 16px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    span{
+        font-size: 20px;
+        font-weight: 20;
+    }
+}
+
+@media (max-width: 480px) { /* Small screens (sm) */
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 14px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    li {
+        font-size: 14px;
+        /* text-align: justify; */
+        font-weight: 20;
+        color: #F5F5F5
+    }
+
+    span{
+        font-size: 20px;
+        font-weight: 20;
+    }
+}
