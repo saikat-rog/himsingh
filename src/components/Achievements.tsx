@@ -27,14 +27,15 @@ const achievements = [
 const Achievements = () => {
   return (
     <div className="bg-secondary h-full py-10">
-      <div className="flex flex-row items-center">
+      <div className="flex flex-col lg:flex-row space-y-10 lg:space-y-0 items-center">
+
         {/* Left part */}
-        <div className="w-1/2 flex justify-center mx-auto">
+        <div className="w-4/5 lg:w-1/2 flex justify-center mx-auto">
           <div className="bg-primary rounded-xl w-[600px] h-[500px]"></div>
         </div>
 
         {/* Right part */}
-        <div className="w-1/2 mx-auto space-y-10">
+        <div className="w-6/7 lg:w-1/2 mx-auto space-y-10">
           <h1>
             This is what I have achieved <br />
             so far:
@@ -43,12 +44,13 @@ const Achievements = () => {
           <div className="flex flex-col items-start space-y-1">
             <ul className="space-y-5">
               {achievements.map((item, index) => (
-                <li key={index} className="flex items-center space-x-2">
-                  <div className="bg-primary rounded-full p-1">
+                <li key={index} className="flex items-center space-x-5">
+
+                  <div className="bg-primary rounded-full px-3 py-2 lg:p-2">
                     <img
-                      src="src\assets\tick2.png" // Replace with your image path
+                      src="src\assets\tick2.png"
                       alt="Check"
-                      className="w-5 h-5"
+                      className="w-6 h-6"
                     />
                   </div>
                   <div className="text-black text-[20px] font-semibold">{item.content}</div>
@@ -58,11 +60,11 @@ const Achievements = () => {
           </div>
 
           {/* Button */}
-          <button className="flex flex-row justify-center items-center bg-primary rounded-full p-2 space-x-3">
+          <button className="flex flex-row justify-center items-center bg-primary rounded-full p-2">
             <span className="text-primary bg-white px-2 py-2 rounded-full font-bold">
-              <ArrowRightIcon className="w-6 h-6 text-primary font-bold" />
+              <ArrowRightIcon className="w-5 h-5 text-primary font-bold" />
             </span>
-            <span className="px-2 text-white">Enroll Now</span>
+            <span className="px-5 text-white">Enroll Now</span>
           </button>
         </div>
       </div>

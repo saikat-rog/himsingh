@@ -29,12 +29,13 @@ const CourseBenefits = () => {
         <div>hi</div>
       </div>
 
-      <button className="flex flex-row justify-center items-center bg-white rounded-full p-2 space-x-3">
-        <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
-          <ArrowRightIcon className="w-5 h-5 text-primary font-bold" />
-        </span>
-        <span className="px-2">Enroll Now</span>
-      </button>
+      {/* Button */}
+      <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
+            <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
+              <ArrowRightIcon className="w-5 lg:w-6 h-5 lg:h-6 text-primary font-bold" />
+            </span>
+            <span className="px-3 lg:px-4">Enroll Now</span>
+          </button>
        
     </div>
   );

@@ -22,9 +22,9 @@ const Bonuses = () => {
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
       {/* Heading */}
-      <div className="flex flex-col items-center space-y-6 py-8">
+      <div className="flex flex-col text-center items-center space-y-6 py-8">
         <div className="bg-secondary px-4 py-1">
-          <h1>Bonuses</h1>
+          <h3>Bonuses</h3>
         </div>
         <p>
           That makes “PRO FREELANCER BUNDLE” a must have toolkit for freelancers

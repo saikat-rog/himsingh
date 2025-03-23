@@ -22,7 +22,7 @@ const cardData = [
 
 const   Hero = () => {
   return (
-    <div className="flex flex-col items-center h-full">
+    <div className="flex flex-col space-y-[700px] lg:space-y-30 items-center">
       <div className=" p-3 bg-[url('.\assets\bg-grid.png')] bg-center h-screen bg-primary bg-cover">
         {/* Branding */}
         <div className="flex flex-row justify-start w-full">

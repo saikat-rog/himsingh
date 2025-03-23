@@ -22,15 +22,16 @@ const cardData = [
 const SpecialFeatures = () => {
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
+      
       {/* Heading */}
       <div className="flex flex-col items-start space-y-1">
         <div className="flex flex-row items-center space-x-4 mt-10 mb-5">
           <div className="bg-secondary px-4 py-1">
-            <h1>Special</h1>
+            <h3>Special</h3>
           </div>
-          <h1 className="text-white">Features</h1>
+          <h3 className="text-white">Features</h3>
         </div>
-        <p className="w-[300px]">
+        <p className="w-[250px] lg:w-[300px]">
           That makes “PRO FREELANCER BUNDLE” a must have toolkit for freelancers
         </p>
       </div>
