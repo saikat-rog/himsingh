@@ -96,7 +96,7 @@ span {
     }
 }
 
-/* Small screens (sm) */
+/* lgall screens (lg) */
 @media (max-width: 480px) {
     h1 {
         font-size: 25px;

@@ -10,7 +10,7 @@ const CourseLearning = () => {
       <div className="hidden lg:block w-5/7 my-10 space-y-10">
         {/* each row [pay]*/}
         <div className="flex flex-col items-start">
-          <div className="flex flex-row rounded-xl shadow-sm px-7 py-7 w-2/3 items-center space-x-5 bg-white">
+          <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
             <img src="src\assets\pay.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
@@ -20,7 +20,7 @@ const CourseLearning = () => {
         </div>
         {/* each row [scholar]*/}
         <div className="flex flex-col items-end">
-          <div className="flex flex-row rounded-xl shadow-sm px-7 py-7 w-2/3 items-center space-x-5 bg-white">
+          <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
             <img src="src\assets\scholar.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
@@ -30,7 +30,7 @@ const CourseLearning = () => {
         </div>
         {/* each row [headset]*/}
         <div className="flex flex-col items-start">
-          <div className="flex flex-row rounded-xl shadow-sm px-7 py-7 w-2/3 items-center space-x-5 bg-white">
+          <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
             <img src="src\assets\headset.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
@@ -40,7 +40,7 @@ const CourseLearning = () => {
         </div>
         {/* each row [suitcase]*/}
         <div className="flex flex-col items-end">
-          <div className="flex flex-row rounded-xl shadow-sm px-7 py-7 w-2/3 items-center space-x-5 bg-white">
+          <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
             <img src="src\assets\suitcase.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
@@ -65,7 +65,7 @@ const CourseLearning = () => {
           >
             <div className="flex flex-row rounded-xl shadow-md px-5 md:px-7 py-6 w-full md:w-3/4 lg:w-2/3 items-center space-x-4 bg-white">
               <img src={`src/assets/${item.img}`} alt="" className="w-10 h-10 md:w-12 md:h-12" />
-              <div className="text-sm md:text-lg font-semibold">{item.text}</div>
+              <div className="text-lg md:text-lg font-semibold">{item.text}</div>
             </div>
           </div>
         ))}

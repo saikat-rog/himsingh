@@ -5,7 +5,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, content }) => {
   return (
-    <div className="flex flex-col items-center w-[300px] rounded-xl bg-gray p-10 space-y-5 text-center">
+    <div className="flex flex-col items-center w-[250px] md:w-[500px] lg:w-[300px] rounded-xl bg-gray p-10 space-y-5 text-center">
       <img src={image} alt="Card Image" className="w-full h-auto" />
       <p>{content}</p>
     </div>

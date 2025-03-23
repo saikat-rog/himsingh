@@ -34,7 +34,7 @@ const MeetYourInstructor = () => {
             <img
               src="src/assets/himbhaie.png"
               alt="Him Singh"
-              className="w-full max-w-sm rounded-lg shadow-lg"
+              className="w-full max-w-lg rounded-lg shadow-lg"
             />
           </div>
         </div>

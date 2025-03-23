@@ -26,7 +26,7 @@ const   Hero = () => {
       <div className=" p-3 bg-[url('.\assets\bg-grid.png')] bg-center h-screen bg-primary bg-cover">
         {/* Branding */}
         <div className="flex flex-row justify-start w-full">
-          <div className="text-secondary text-[30px] font-bold">him singh</div>
+          <img src="src\assets\logo.png" alt="" className="w-30 lg:w-50"/>
         </div>
 
         {/* Welcome */}
