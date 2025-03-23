@@ -6,6 +6,10 @@ import Guest from "./components/Guest";
 import MeetYourInstructor from "./components/MeetYourInstructor";
 import PrivateCommunity from './components/PrivateCommunity';
 import Achievements from './components/Achievements';
+import CourseLearning from './components/CourseLearning';
+import Bonuses from './components/Bonuses';
+import MoneyBackGurantee from './components/MoneyBackGurantee';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -16,9 +20,18 @@ function App() {
       <Introduce/>
       <SpecialFeatures/>
       <Guest/>
+      {/* course curriculum */}
+      <CourseLearning/>
       <MeetYourInstructor/>
       <PrivateCommunity/>
       <Achievements/>
+      {/* Reviews */}
+      {/* Price and Enroll */}
+      {/* faqs */}
+      <Bonuses/>
+      <MoneyBackGurantee/>
+      {/* Footer */}
+      <Footer/>
     </div>
   )
 }
