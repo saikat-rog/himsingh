@@ -5,6 +5,8 @@
 
 @import "tailwindcss";
 
+@import "tw-animate-css";
+
 @theme {
     --font-grotesk: Grotesk, "sans-serif";
     --color-primary: #1D1D1F;

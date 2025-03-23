@@ -10,6 +10,7 @@ import CourseLearning from './components/CourseLearning';
 import Bonuses from './components/Bonuses';
 import MoneyBackGurantee from './components/MoneyBackGurantee';
 import Footer from './components/Footer';
+import Faqs from './components/Faqs';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       <Achievements/>
       {/* Reviews */}
       {/* Price and Enroll */}
-      {/* faqs */}
+      <Faqs/>
       <Bonuses/>
       <MoneyBackGurantee/>
       {/* Footer */}
