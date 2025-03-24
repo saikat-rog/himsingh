@@ -31,7 +31,6 @@ function App() {
       <Faqs/>
       <Bonuses/>
       <MoneyBackGurantee/>
-      {/* Footer */}
       <Footer/>
     </div>
   )

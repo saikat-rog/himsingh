@@ -4,17 +4,17 @@ import Companies from "./Companies";
 
 const cardData = [
   {
-    image: "src/assets/fiftyinfive.png",
+    image: "/assets/fiftyinfive.png",
     content:
       "Don’t have skills? I will teach you how to find clients and outsource your work to someone and chill",
   },
   {
-    image: "src/assets/growthplaybook.png",
+    image: "/assets/growthplaybook.png",
     content:
       "You are 14? No problem, your age doesn't matter, your work and dedication is the only thing that matters",
   },
   {
-    image: "src/assets/creatorstartup.png",
+    image: "/assets/creatorstartup.png",
     content:
       "Hate to study? F#@k college, no client ever asked me about my qualifications or degree",
   },
@@ -26,7 +26,7 @@ const   Hero = () => {
       <div className=" p-3 bg-[url('.\assets\bg-grid.png')] bg-center h-screen bg-primary bg-cover">
         {/* Branding */}
         <div className="flex flex-row justify-start w-full">
-          <img src="src\assets\logo.png" alt="" className="w-30 lg:w-50"/>
+          <img src="\assets\logo.png" alt="" className="w-30 lg:w-50"/>
         </div>
 
         {/* Welcome */}

@@ -18,7 +18,7 @@ const CourseBenefits = () => {
           >
             <div className="flex flex-col items-start">
               <div className="p-2 rounded-xl border-1 border-gray-700 mb-4">
-                <img src="src\assets\benifits.png" alt="" />
+                <img src="\assets\benifits.png" alt="" />
               </div>
               <p className="text-lg font-semibold">{benefit.title}</p>
             </div>

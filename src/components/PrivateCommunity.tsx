@@ -8,7 +8,7 @@ const PrivateCommunity = () => {
         your progress, get feedback, and stay motivated with the support of
         others on the same journey.
       </p>
-      <img src="src\assets\privatecommunity.png" alt="" className="my-10"/>
+      <img src="\assets\privatecommunity.png" alt="" className="my-10"/>
     </div>
   );
 };

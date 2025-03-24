@@ -32,7 +32,7 @@ const MeetYourInstructor = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="bg-secondary px-4 pt-4 rounded-xl shadow-lg">
             <img
-              src="src/assets/himbhaie.png"
+              src="/assets/himbhaie.png"
               alt="Him Singh"
               className="w-full max-w-lg rounded-lg shadow-lg"
             />

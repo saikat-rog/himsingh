@@ -31,16 +31,16 @@ const Footer = () => {
           <div className="w-1/2 flex flex-col">
             <ul className="space-y-4">
               <li>
-                <img src="src\assets\youtube.png" alt="" />
+                <img src="\assets\youtube.png" alt="" />
               </li>
               <li>
-                <img src="src\assets\spotify.png" alt="" />
+                <img src="\assets\spotify.png" alt="" />
               </li>
               <li>
-                <img src="src\assets\instagram.png" alt="" />
+                <img src="\assets\instagram.png" alt="" />
               </li>
               <li>
-                <img src="src\assets\twitter.png" alt="" />
+                <img src="\assets\twitter.png" alt="" />
               </li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
 
       <div className="relative w-full">
-        <img src="src\assets\HimSingh.png" alt="" className="w-full" />
+        <img src="\assets\HimSingh.png" alt="" className="w-full" />
       </div>
     </div>
   );

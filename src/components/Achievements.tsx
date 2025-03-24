@@ -48,7 +48,7 @@ const Achievements = () => {
 
                   <div className="bg-primary rounded-full px-3 py-2 lg:p-2">
                     <img
-                      src="src\assets\tick2.png"
+                      src="\assets\tick2.png"
                       alt="Check"
                       className="w-6 h-6"
                     />

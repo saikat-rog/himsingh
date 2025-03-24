@@ -11,7 +11,7 @@ const CourseLearning = () => {
         {/* each row [pay]*/}
         <div className="flex flex-col items-start">
           <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
-            <img src="src\assets\pay.png" alt="" />
+            <img src="\assets\pay.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
               International clients
@@ -21,7 +21,7 @@ const CourseLearning = () => {
         {/* each row [scholar]*/}
         <div className="flex flex-col items-end">
           <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
-            <img src="src\assets\scholar.png" alt="" />
+            <img src="\assets\scholar.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
               International clients
@@ -31,7 +31,7 @@ const CourseLearning = () => {
         {/* each row [headset]*/}
         <div className="flex flex-col items-start">
           <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
-            <img src="src\assets\headset.png" alt="" />
+            <img src="\assets\headset.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
               International clients
@@ -41,7 +41,7 @@ const CourseLearning = () => {
         {/* each row [suitcase]*/}
         <div className="flex flex-col items-end">
           <div className="flex flex-row rounded-xl shadow-lg px-7 py-7 w-2/3 items-center space-x-5 bg-white">
-            <img src="src\assets\suitcase.png" alt="" />
+            <img src="\assets\suitcase.png" alt="" />
             <div className="text-[20px] font-bold">
               Make an additional $1000 – $5000 per month working with
               International clients

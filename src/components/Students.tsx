@@ -32,7 +32,7 @@ const Students  = () => {
       <div className="flex flex-col lg:flex-row items-center space-y-5 lg:space-x-4">
         {/* Left part */}
         <div className="w-2/3 lg:w-1/2 mx-auto">
-          <img src="src\assets\specialfeature.png" alt="" />
+          <img src="\assets\specialfeature.png" alt="" />
         </div>
 
         {/* Right part */}
@@ -44,7 +44,7 @@ const Students  = () => {
               {features.map((item, index) => (
                 <li key={index} className="flex items-center space-x-2">
                   <img
-                    src="src\assets\tick.png" // Replace with your image path
+                    src="\assets\tick.png" // Replace with your image path
                     alt="Check"
                     className="w-5 h-5"
                   />
