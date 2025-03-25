@@ -5,7 +5,7 @@ import SpecialFeatures from "./components/SpecialFeatures";
 import Guest from "./components/Guest";
 import MeetYourInstructor from "./components/MeetYourInstructor";
 import PrivateCommunity from './components/PrivateCommunity';
-import Achievements from './components/Achievements';
+// import Achievements from './components/Achievements';
 import CourseLearning from './components/CourseLearning';
 import Bonuses from './components/Bonuses';
 import MoneyBackGurantee from './components/MoneyBackGurantee';
@@ -22,15 +22,15 @@ function App() {
       <SpecialFeatures/>
       <Guest/>
       {/* course curriculum */}
-      <CourseLearning/>
       <MeetYourInstructor/>
       <PrivateCommunity/>
-      <Achievements/>
+      {/* <Achievements/> Not needed */}
       {/* Reviews */}
       {/* Price and Enroll */}
       <Faqs/>
       <Bonuses/>
       <MoneyBackGurantee/>
+      <CourseLearning/>
       <Footer/>
     </div>
   )

@@ -25,8 +25,10 @@ const Students  = () => {
     return <div className="flex flex-col justify-center items-center h-full">
         {/* Heading2 */}
       <div className="my-10 lg:my-20 flex flex-col items-center">
+        <img src="/assets/students.png" alt="" className="w-100 lg:w-150" />
         <h2 className="text-secondary">197+ Students</h2>
         <h2 className="text-white">Have gone from Zero to Pro</h2>
+        <p className="text-gray-100 mt-10">Who can enroll in my courses?</p>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center space-y-5 lg:space-x-4">

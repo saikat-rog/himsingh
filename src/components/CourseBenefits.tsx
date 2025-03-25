@@ -25,18 +25,15 @@ const CourseBenefits = () => {
             <p className="">{benefit.description}</p>
           </div>
         ))}
-
-        <div>hi</div>
       </div>
 
       {/* Button */}
-      <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
-            <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
-              <ArrowRightIcon className="w-5 lg:w-6 h-5 lg:h-6 text-primary font-bold" />
-            </span>
-            <span className="px-3 lg:px-4">Enroll Now</span>
-          </button>
-       
+      <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5 mt-15">
+        <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
+          <ArrowRightIcon className="w-5 lg:w-8 h-5 lg:h-8 text-primary font-bold" />
+        </span>
+        <div className="px-3 lg:px-6 text-xl font-semibold">Enroll Now</div>
+      </button>
     </div>
   );
 };
@@ -78,15 +75,6 @@ const benefitsData: Benefit[] = [
   },
   {
     title: "You want to travel, enjoy and work from anywhere in the world",
-    description: "",
-  },
-  {
-    title:
-      "Tired of trying your luck on freelance marketplace like upwork, fiverr",
-    description: "",
-  },
-  {
-    title: "You want to be the part of future of work i.e. gig economy",
     description: "",
   },
 ];
