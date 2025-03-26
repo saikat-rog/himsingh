@@ -13,6 +13,8 @@ import Footer from './components/Footer';
 import Faqs from './components/Faqs';
 import {Testimonials} from './components/Testimonials';
 import CourseCurriculum from './components/Curriculum';
+import PriceSection from './components/PriceSection';
+
 function App() {
 
   return (
@@ -28,6 +30,7 @@ function App() {
       <Testimonials/>
       {/* <Achievements/> Not needed */}
       {/* Price and Enroll */}
+      <PriceSection/>
       <Faqs/>
       <Bonuses/>
       <MoneyBackGurantee/>

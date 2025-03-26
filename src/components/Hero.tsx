@@ -20,7 +20,7 @@ const cardData = [
   },
 ];
 
-const   Hero = () => {
+const Hero = () => {
   return (
     <div className="flex flex-col space-y-[700px] lg:space-y-30 items-center">
       <div className=" p-3 bg-[url('.\assets\bg-grid.png')] bg-center h-screen bg-primary bg-cover">
