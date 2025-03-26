@@ -10,12 +10,12 @@ const PricingSection = () => {
         </h1>
         <p>Start with our Freelance course or dive into the Lancrr All Access program.</p>
       </div>
-      <div className="w-full justify-center items-center">
+      <div className="w-[400px] lg:w-[800px] justify-center items-center">
         <div className="relative lg:w-full h-90 lg:h-130 rounded-lg overflow-hidden">
           {/* Top Purple Box (Overlay) */}
-          <div className="bg-gray absolute w-[50%] lg:w-[25%] h-[85%] top-7 lg:top-12 left-45 lg:left-180  rounded-xl shadow-lg outline outlien-1 outline-secondary"></div>
+          <div className="bg-gray absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-100  rounded-xl shadow-lg outline outlien-1 outline-secondary"></div>
           {/* Bottom White Box */}
-          <div className="bg-gray w-[50%] lg:w-[25%] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary"></div>
+          <div className="bg-gray w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary"></div>
         </div>
       </div>
     </div>
