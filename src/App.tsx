@@ -22,7 +22,6 @@ function App() {
       <Introduce/>
       <SpecialFeatures/>
       <Guest/>
-      {/* course curriculum */}
       <CourseCurriculum/>
       <MeetYourInstructor/>
       <PrivateCommunity/>

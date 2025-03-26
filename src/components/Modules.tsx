@@ -278,48 +278,67 @@ function Modules() {
   };
 
   return (
-    <div className="flex flex-wrap w-full gap-10 p-5">
-
+    <div className="flex flex-col items-center w-full gap-10 px-5 md:px-20">
       {parts.map((part, partIndex) => (
-        <div key={partIndex} className="w-full md:w-1/2">
-          <p className="text-white text-xl font-bold mb-4">{part.title}</p>
-          <div className="flex flex-col gap-3">
-            {part.modules.map((module, moduleIndex) => {
-              const isOpen = openModules[`${partIndex}-${moduleIndex}`];
-              return (
-                <div key={moduleIndex} className="w-full">
-                  <div
-                    className="flex flex-col w-full bg-gray outline-1 outline-white/20 rounded-xl p-4 shadow-md cursor-pointer"
-                    onClick={() => toggleModule(partIndex, moduleIndex)}
-                  >
-                    <div className="flex w-full items-center justify-between">
-                      <p className="text-white flex items-center gap-2">
-                        {isOpen ? <ChevronDown /> : <ChevronRight />}{" "}
-                        {module.title}
-                      </p>
-                      <span className="text-secondary border border-secondary px-3 py-1 rounded-xl text-sm">
-                        Module {moduleIndex + 1}
-                      </span>
-                    </div>
+        <div
+          key={partIndex}
+          className="flex flex-col md:flex-row w-full max-w-6xl gap-10 mt-10 md:mt-20"
+        >
+          {/* Left Section (Modules) */}
+          <div className="w-full md:w-1/2">
+            <p className="text-white text-xl font-bold mb-4">{part.title}</p>
+            <div className="flex flex-col gap-3">
+              {part.modules.map((module, moduleIndex) => {
+                const isOpen = openModules[`${partIndex}-${moduleIndex}`];
+                return (
+                  <div key={moduleIndex} className="w-full">
+                    <div
+                      className="flex flex-col w-full bg-gray outline-1 outline-white/20 rounded-xl p-4 shadow-md cursor-pointer"
+                      onClick={() => toggleModule(partIndex, moduleIndex)}
+                    >
+                      <div className="flex w-full justify-between items-center">
+                        {/* Title takes the available space */}
+                        <p className="text-white flex items-center gap-2 flex-grow">
+                          {isOpen ? <ChevronDown /> : <ChevronRight />}{" "}
+                          {module.title}
+                        </p>
 
-                    {/* Expanded Description */}
-                    {isOpen && (
-                      <div className="p-4 mt-2 text-white text-sm">
-                        {module.description.length > 0 ? (
-                          <ul className="list-disc pl-5">
-                            {module.description.map((desc, i) => (
-                              <li key={i}>{desc}</li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p>No details available.</p>
-                        )}
+                        {/* Module number takes only required space */}
+                        <span className="text-secondary flex items-center border border-secondary px-3 py-1 rounded-xl text-sm flex-shrink-0">
+                          Module {moduleIndex + 1}
+                        </span>
                       </div>
-                    )}
+
+                      {/* Expanded Description with Smooth Transition */}
+                      <div
+                        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                          isOpen
+                            ? "max-h-[500px] opacity-100 mt-2"
+                            : "max-h-0 opacity-0"
+                        }`}
+                      >
+                        <div className="p-4 text-white text-sm">
+                          {module.description.length > 0 ? (
+                            <ul className="list-disc pl-5">
+                              {module.description.map((desc, i) => (
+                                <li key={i}>{desc}</li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>No details available.</p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Right Section (Static Content) */}
+          <div className="w-full md:w-1/2 flex flex-col items-center justify-start">
+            <div className="bg-purple-600 w-3/4 md:w-2/3 h-[200px] md:h-[300px] rounded-xl mt-10"></div>
           </div>
         </div>
       ))}
