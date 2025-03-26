@@ -11,7 +11,8 @@ import Bonuses from './components/Bonuses';
 import MoneyBackGurantee from './components/MoneyBackGurantee';
 import Footer from './components/Footer';
 import Faqs from './components/Faqs';
-
+import {Testimonials} from './components/Testimonials';
+import CourseCurriculum from './components/Curriculum';
 function App() {
 
   return (
@@ -22,10 +23,11 @@ function App() {
       <SpecialFeatures/>
       <Guest/>
       {/* course curriculum */}
+      <CourseCurriculum/>
       <MeetYourInstructor/>
       <PrivateCommunity/>
+      <Testimonials/>
       {/* <Achievements/> Not needed */}
-      {/* Reviews */}
       {/* Price and Enroll */}
       <Faqs/>
       <Bonuses/>

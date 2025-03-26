@@ -16,6 +16,21 @@ const cardData = [
     content:
       "You get lifetime future updates at no extra cost, even if masterclass prices are raised. I update the course every 6-8 months and add new useful resources for you.",
   },
+  {
+    title: "Templates",
+    content:
+      "You will have lifetime access to the course so that even if you enrol now at discounted prices you can still learn later at your own pace. Even if the course prices increases in the future.",
+  },
+  {
+    title: "Scripts",
+    content:
+      "You get a private community of other course members and top freelancers to learn from. Become friends, learn, earn and grow together. On demand monthly live QnA calls with me.",
+  },
+  {
+    title: "Live",
+    content:
+      "You get lifetime future updates at no extra cost, even if masterclass prices are raised. I update the course every 6-8 months and add new useful resources for you.",
+  },
 ];
 
 const Bonuses = () => {

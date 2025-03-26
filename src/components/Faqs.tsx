@@ -20,7 +20,8 @@ const faqData = [
   {
     question:
       "Will I receive a certificate of completion after finishing the course?",
-    answer: "Yes, upon successful completion of the course, you will receive a certificate.",
+    answer:
+      "Yes, upon successful completion of the course, you will receive a certificate.",
   },
   {
     question:
@@ -60,12 +61,28 @@ const FAQS = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 text-center">
           {[
-            { title: "60 Lakh +", desc: "Top Freelancers earn annually in India" },
-            { title: "15 Million +", desc: "Total number of freelancers in India" },
-            { title: "30 Billion +", desc: "Freelance Industry to grow by 2025" },
+            {
+              title: "60 Lakh +",
+              desc: "Top Freelancers earn annually in India",
+            },
+            {
+              title: "15 Million +",
+              desc: "Total number of freelancers in India",
+            },
+            {
+              title: "30 Billion +",
+              desc: "Freelance Industry to grow by 2025",
+            },
           ].map((stat, index) => (
-            <div key={index} className={`flex flex-col items-center ${index < 2 ? "md:border-r md:border-gray-600 md:pr-8" : "md:pl-8"}`}>
-              <h3 className="text-orange-500 text-3xl font-bold">{stat.title}</h3>
+            <div
+              key={index}
+              className={`flex flex-col items-center ${
+                index < 2 ? "md:border-r md:border-gray-600 md:pr-8" : "md:pl-8"
+              }`}
+            >
+              <h3 className="text-orange-500 text-3xl font-bold">
+                {stat.title}
+              </h3>
               <p className="text-sm text-gray-400">{stat.desc}</p>
             </div>
           ))}
@@ -81,24 +98,24 @@ const FAQS = () => {
           <Accordion type="single" collapsible>
             {faqData.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger>{faq.question}</AccordionTrigger>
-                <AccordionContent>{faq.answer}</AccordionContent>
+                <AccordionTrigger><p>{faq.question}</p></AccordionTrigger>
+                <AccordionContent><h3>{faq.answer}</h3></AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
         </div>
 
         {/* Still have questions */}
-        <div className="text-center mt-12 flex flex-col gap-5 items-center border-2 border-white w-2/3 shadow rounded-xl p-10 m-auto">
+        <div className="text-center mt-12 flex flex-col gap-5 items-center w-3/5 shadow rounded-xl p-10 m-auto outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>
           <img src="/assets/havequestions.png" alt="Still have questions?" />
           <h1 className="text-2xl font-bold">Still have questions?</h1>
-          <p className="text-gray-400">Feel free to reach out to us at</p>
+          <p className="text-gray-400">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
           {/* Button */}
-          <button className="flex flex-row justify-center items-center bg-white rounded-full p-2">
+          <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
             <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
-              <ArrowRightIcon className="w-6 h-6 text-primary" />
+              <ArrowRightIcon className="w-5 lg:w-8 h-5 lg:h-8 text-primary font-bold" />
             </span>
-            <span className="px-4 text-xl font-semibold text-black">Enroll Now</span>
+            <div className=" text-black px-3 lg:px-6 text-xl font-semibold">Get in touch</div>
           </button>
         </div>
       </div>

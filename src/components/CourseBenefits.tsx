@@ -14,10 +14,10 @@ const CourseBenefits = () => {
         {benefitsData.map((benefit, index) => (
           <div
             key={index}
-            className="bg-gray2 rounded-xl outline-1 outline-gray-700 p-6"
+            className="bg-gray2 rounded-xl p-6 outline-[1px] outline-white/20" style={{ outlineOffset: '-1px' }}
           >
             <div className="flex flex-col items-start">
-              <div className="p-2 rounded-xl border-1 border-gray-700 mb-4">
+              <div className="p-2 rounded-xl mb-4 outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>
                 <img src="\assets\benifits.png" alt="" />
               </div>
               <p className="text-lg font-semibold">{benefit.title}</p>

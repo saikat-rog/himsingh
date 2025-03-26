@@ -7,32 +7,32 @@ const CourseLearning = () => {
       <div className="hidden lg:block w-5/7 my-10 space-y-10">
         {[
           {
-            img: "/assets/pay.png",
+            img: "/assets/pay.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "start",
           },
           {
-            img: "/assets/scholar.png",
+            img: "/assets/scholar.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "end",
           },
           {
-            img: "/assets/headset.png",
+            img: "/assets/headset.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "start",
           },
           {
-            img: "/assets/headset.png",
+            img: "/assets/headset.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "start",
           },
           {
-            img: "/assets/headset.png",
+            img: "/assets/headset.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "start",
           },
           {
-            img: "/assets/suitcase.png",
+            img: "/assets/suitcase.svg",
             text: "Make an additional $1000 – $5000 per month working with International clients",
             align: "end",
           },
@@ -50,31 +50,30 @@ const CourseLearning = () => {
           </div>
         ))}
       </div>
-      );
       <div className="block lg:hidden w-full px-5 max-w-lg md:max-w-2xl lg:max-w-4xl my-10 space-y-8">
         {[
           {
-            img: "pay.png",
+            img: "pay.svg",
             text: "Earn an additional $1000 – $5000 per month working with International clients",
           },
           {
-            img: "scholar.png",
+            img: "scholar.svg",
             text: "Master high-income freelancing skills that clients love",
           },
           {
-            img: "headset.png",
+            img: "headset.svg",
             text: "Work remotely from anywhere in the world with global clients",
           },
           {
-            img: "headset.png",
+            img: "headset.svg",
             text: "Work remotely from anywhere in the world with global clients",
           },
           {
-            img: "headset.png",
+            img: "headset.svg",
             text: "Work remotely from anywhere in the world with global clients",
           },
           {
-            img: "suitcase.png",
+            img: "suitcase.svg",
             text: "Build a sustainable freelancing career and grow your business",
           },
         ].map((item, index) => (
