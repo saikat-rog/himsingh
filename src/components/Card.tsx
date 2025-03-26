@@ -18,7 +18,7 @@ interface CardsProps {
 
 const Cards: React.FC<CardsProps> = ({ cardData }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center w-full space-y-5 lg:space-x-20 py-10 lg:py-0">
+    <div className="flex flex-col lg:flex-row items-center text-white justify-center w-full space-y-5 lg:space-x-20 py-10 lg:py-0">
       {cardData.map((card, index) => (
         <Card key={index} image={card.image} content={card.content} />
       ))}

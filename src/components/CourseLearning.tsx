@@ -3,7 +3,7 @@ const CourseLearning = () => {
     <div className="flex flex-col items-center w-full py-10 lg:py-20 bg-primary">
       {/* Heading */}
       <h3 className="bg-secondary p-2 my-5">Course Learning</h3>
-      <p>After completing my courses you will</p>
+      <p className="text-white">After completing my courses you will</p>
       <div className="hidden lg:block w-5/7 my-10 space-y-10">
         {[
           {

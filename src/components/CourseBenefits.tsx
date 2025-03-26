@@ -14,7 +14,7 @@ const CourseBenefits = () => {
         {benefitsData.map((benefit, index) => (
           <div
             key={index}
-            className="bg-gray2 rounded-xl p-6 outline-[1px] outline-white/20" style={{ outlineOffset: '-1px' }}
+            className="bg-gray2 rounded-xl p-6 outline-[1px] outline-white/20 text-white" style={{ outlineOffset: '-1px' }}
           >
             <div className="flex flex-col items-start">
               <div className="p-2 rounded-xl mb-4 outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>

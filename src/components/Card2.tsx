@@ -31,7 +31,7 @@ interface CardsProps {
 const Cards: React.FC<CardsProps> = ({ cardData, price }) => {
   return (
     <div className="items-center ">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center w-full gap-6 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center text-white justify-center w-full gap-6 py-10">
         {cardData.map((card, index) => (
           <Card
             key={index}

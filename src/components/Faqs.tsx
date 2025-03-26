@@ -109,7 +109,7 @@ const FAQS = () => {
         <div className="text-center mt-12 flex flex-col gap-5 items-center w-3/5 shadow rounded-xl p-10 m-auto outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>
           <img src="/assets/havequestions.png" alt="Still have questions?" />
           <h1 className="text-2xl font-bold">Still have questions?</h1>
-          <p className="text-gray-400">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+          <p className="text-neutral-400">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
           {/* Button */}
           <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
             <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">

@@ -18,7 +18,7 @@ const Welcome = () => {
         <div className="text-secondary text-4xl font-extrabold">
           Become a world-class freelancer with Lancrr
         </div>
-        <p className="text-lg lg:text-base md:text-lg text-gray-700">
+        <p className="text-lg lg:text-base md:text-lg text-white">
           I will teach you how pro freelancers find and close high-ticket
           clients that pay $1000-$5000 per month consistently, all through
           social media without using paid ads, Upwork, or Fiverr.

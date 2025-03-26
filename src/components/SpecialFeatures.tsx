@@ -36,7 +36,7 @@ const cardData = [
 
 const SpecialFeatures = () => {
   return (
-    <div className="flex flex-col items-center p-3 bg-[url('/assets/bg-grid.png')] bg-cover bg-center h-full bg-primary">
+    <div className="flex flex-col items-center p-3 bg-[url('/assets/bg-grid.png')] bg-cover bg-center text-white h-full bg-primary">
       {/* Heading */}
       <div className="flex flex-col text-center space-y-4">
           <h3 className="text-white">

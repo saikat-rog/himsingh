@@ -42,7 +42,7 @@ const Bonuses = () => {
         <div className="bg-secondary px-4 py-1">
           <h3>Bonuses</h3>
         </div>
-        <p>
+        <p className="text-white">
           That makes “PRO FREELANCER BUNDLE” a must have toolkit for freelancers
         </p>
       </div>

@@ -30,14 +30,14 @@ const PrivateCommunity = () => {
 
       {/* Heading */}
       <h1 className="text-secondary">Private Community</h1>
-      <p className="w-4/5 lg:w-3/5 justify-center text-center text-gray">
+      <p className="w-4/5 lg:w-3/5 justify-center text-center text-white">
         Join a vibrant, members-only community of like-minded designers. Share
         your progress, get feedback, and stay motivated with the support of
         others on the same journey.
       </p>
       <img src="\assets\privatecommunity.png" alt="" className="my-10"/>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-5 text-white">
         {benefitsData.map((benefit, index) => (
           <div
             key={index}

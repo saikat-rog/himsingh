@@ -2,20 +2,124 @@ const PricingSection = () => {
   return (
     <div className="w-full flex flex-col items-center gap-5 bg-primary py-10">
       <div className="w-full flex flex-col justify-center text-center px-5 items-center gap-2">
-        <h3 className="text-secondary">
-          Invest in your future
-        </h3>
+        <h3 className="text-secondary">Invest in your future</h3>
         <h1 className="text-white text-center mt-5">
           Ready to Master Freelance?
         </h1>
-        <p>Start with our Freelance course or dive into the Lancrr All Access program.</p>
+        <p className="text-neutral-400 text-center mt-2">
+          Start with our Freelance course or dive into the Lancrr All Access
+          program.
+        </p>
       </div>
+
+      {/* Price boxes */}
       <div className="w-[400px] lg:w-[800px] justify-center items-center">
-        <div className="relative lg:w-full h-90 lg:h-130 rounded-lg overflow-hidden">
+        <div className="relative lg:w-full h-140 lg:h-170 rounded-lg overflow-hidden">
+
+            <img src="/assets/soldout.png" alt="" className="absolute top-15 right-10 w-70"/>
           {/* Top Purple Box (Overlay) */}
-          <div className="bg-gray absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-100  rounded-xl shadow-lg outline outlien-1 outline-secondary"></div>
+          <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
+
+            {/* Title */}
+            <h3 className="text-secondary">
+              Web Career Ignite
+            </h3>
+
+            {/* Price */}
+            <h1 className="text-3xl font-bold mt-2">$3495</h1>
+
+            {/* Description */}
+            <p className="text-center text-sm mt-2 text-neutral-400">
+              Master Figma, create stunning & responsive websites, and
+              collaborate like a pro.
+            </p>
+
+            {/* Includes Section */}
+            <div className="w-full flex flex-col items-start justify-start gap-2 mt-4">
+              <p>Includes:</p>
+              
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                12-month mentoring & support
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                12-month office hours with Ran Segall
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                4 private 30-min calls with our mentors
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                Access to private Flux Community
+              </p>
+            </div>
+
+            {/* CTA Button */}
+            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold hover:bg-opacity-80 transition">
+              Enroll Now
+            </button>
+          </div>
+
           {/* Bottom White Box */}
-          <div className="bg-gray w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary"></div>
+          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary">
+            {/* Title */}
+            <h3 className="text-secondary text-center">
+              Figma for Web Designers 2.0
+            </h3>
+
+            {/* Price */}
+            <h1 className="text-3xl font-bold mt-2">$469</h1>
+
+            {/* Description */}
+            <p className="text-center text-sm mt-2 text-neutral-400">
+              Master Figma, create stunning & responsive websites, and
+              collaborate like a pro.
+            </p>
+
+            {/* Includes Section */}
+            <div className="w-full flex flex-col items-start justify-start gap-2 mt-4">
+              <p>Includes:</p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                12-month mentoring & support
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                12-month office hours with Ran Segall
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                4 private 30-min calls with our mentors
+              </p>
+              <p className="flex items-center gap-2">
+                <span>
+                  <img src="/assets/tick.svg" alt="" className="h-5" />
+                </span>
+                Access to private Flux Community
+              </p>
+            </div>
+
+            {/* CTA Button */}
+            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold hover:bg-opacity-80 transition">
+              Enroll Now
+            </button>
+          </div>
         </div>
       </div>
     </div>
