@@ -1,9 +1,9 @@
 const MeetYourInstructor = () => {
   return (
-    <div className="flex flex-col items-center py-10 bg-gray px-6">
+    <div className="flex flex-col items-center py-5 bg-gray px-6">
 
       {/* Heading */}
-      <h1 className="text-white text-3xl font-bold my-20">
+      <h1 className="text-white text-3xl font-bold my-10 lg:my-20">
         Meet Your Instructor
       </h1>
 

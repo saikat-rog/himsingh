@@ -38,7 +38,7 @@ const Students  = () => {
         </div>
 
         {/* Right part */}
-        <div className="w-4/5 lg:w-1/2 mx-auto space-y-15">
+        <div className="w-full px-6 lg:w-1/2 mx-auto space-y-15">
 
           {/* List */}
           <div className="flex flex-col items-start space-y-1">
@@ -57,7 +57,7 @@ const Students  = () => {
           </div>
 
           {/* Button */}
-          <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
+          <button className="flex flex-row justify-center items-center bg-white text-black rounded-full p-1.5 lg:p-2 mb-5">
             <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
               <ArrowRightIcon className="w-5 lg:w-6 h-5 lg:h-6 text-primary font-bold" />
             </span>

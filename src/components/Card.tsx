@@ -5,8 +5,10 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, content }) => {
   return (
-    <div className="flex flex-col items-center w-[250px] md:w-[500px] lg:w-[300px] rounded-xl bg-gray p-10 space-y-5 text-center">
-      <img src={image} alt="Card Image" className="w-full h-auto" />
+    <div className="flex flex-col items-center md:w-[300px] md:h-[300px] w-[250px] h-[250px] rounded-xl bg-gray p-10 space-y-5 text-center">
+      <div className="flex rounded-full bg-secondary p-2">
+      <img src={image} alt="Card Image" className="w-full h-10" />
+      </div>
       <p>{content}</p>
     </div>
   );

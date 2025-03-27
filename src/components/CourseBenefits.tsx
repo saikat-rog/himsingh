@@ -4,10 +4,7 @@ const CourseBenefits = () => {
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
       {/* heading */}
-      <div className="flex flex-row items-center justify-center my-15 gap-2">
-        <h1 className="text-secondary">My courses</h1>
-        <h1 className="text-white">are for you, if…</h1>
-      </div>
+      <h1 className="text-white my-15"><span className="text-secondary">My courses </span>are for you, if…</h1>
 
       {/* benefits */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">

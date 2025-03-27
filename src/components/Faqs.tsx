@@ -94,7 +94,7 @@ const FAQS = () => {
         </div>
 
         {/* Accordion Section */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl px-2">
           <Accordion type="single" collapsible>
             {faqData.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
@@ -106,7 +106,7 @@ const FAQS = () => {
         </div>
 
         {/* Still have questions */}
-        <div className="text-center mt-12 flex flex-col gap-5 items-center w-3/5 shadow rounded-xl p-10 m-auto outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>
+        <div className="text-center mt-12 flex flex-col gap-5 items-center w-full lg:w-3/5 shadow rounded-xl p-10 m-auto outline-[1px] outline-white/20 bg-gray" style={{ outlineOffset: '-1px' }}>
           <img src="/assets/havequestions.png" alt="Still have questions?" />
           <h1 className="text-2xl font-bold">Still have questions?</h1>
           <p className="text-neutral-400">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
