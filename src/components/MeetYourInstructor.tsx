@@ -15,7 +15,7 @@ const MeetYourInstructor = () => {
             Freelancing coach
           </div>
           <h1 className="text-white mt-2">Him Singh</h1>
-          <p className="text-gray mt-4 leading-relaxed text-white">
+          <p className="mt-4 leading-relaxed text-white">
             I have been freelancing for the past 5 years, and teaching is my
             passion. I love transforming lives more than making money. I have
             helped myself come out of poverty, supported my family, and now my
