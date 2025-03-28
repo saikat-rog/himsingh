@@ -22,28 +22,21 @@ const cardData = [
 
 const Hero = () => {
   return (
-    <div className="flex flex-col space-y-[700px] lg:space-y-30 items-center">
-      <div className=" p-3 pb- 15 lg:pb-30 bg-[url('/assets/bg-grid.png')] bg-center bg-primary bg-cover">
+    <div className="flex flex-col space-y-[10px] items-center relative">
+      <div className=" p-3 pb-15 bg-[url('/assets/bg-grid.png')] bg-center bg-primary bg-cover relative">
         
         {/* Branding */}
-        <div className="flex flex-row justify-start w-full">
-          <img src="/assets/logo.png" alt="" className="w-30 lg:w-50" />
+        <div className="flex flex-row justify-item-start">
+          <img src="/assets/logo.png" alt="" className="w-50" />
         </div>
 
         {/* Welcome */}
         <Welcome />
-        
       </div>
 
       {/* Cards */}
-      <div className="hidden lg:block absolute top-180 w-full">
+      <div className="w-full">
         <Cards cardData={cardData} />
-      </div>
-
-      <div className="absolute top-180 lg:hidden w-full justify-center">
-        <div className="w-full max-w-5xl px-5">
-          <Cards cardData={cardData} />
-        </div>
       </div>
 
       {/* Companies */}

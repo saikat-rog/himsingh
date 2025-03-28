@@ -1,6 +1,6 @@
 const Companies = () => {
   return (
-      <div className="flex flex-col items-center justify-center text-center w-full pt-50 md:pt-10 pb-20 lg:pt-30 lg:pb-20">
+      <div className="flex flex-col items-center justify-center text-center w-full pt-15 md:pt-10 pb-20 lg:pt-20 lg:pb-20">
         <h3 className="bg-secondary px-3 py-1 mb-5">Companies</h3>
         <h1>That trust Me with their Growth</h1>
         <div className="flex flex-wrap justify-center items-center gap-10 lg:gap-20 w-full pt-10">

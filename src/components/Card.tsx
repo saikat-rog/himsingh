@@ -5,11 +5,11 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, content }) => {
   return (
-    <div className="flex flex-col items-center md:w-[300px] md:h-[300px] w-[250px] h-[250px] rounded-xl bg-gray p-10 space-y-5 text-center">
-      <div className="flex rounded-full bg-secondary p-2">
-      <img src={image} alt="Card Image" className="w-full h-10" />
+    <div className="flex flex-col items-center  w-[250px] h-[250px] rounded-xl bg-gray-800 p-4 md:p-6 space-y-4 text-center text-white shadow-lg">
+      <div className="flex justify-center items-center w-16 h-16 rounded-full bg-secondary p-2">
+        <img src={image} alt="Card Image" className="w-10 h-10" />
       </div>
-      <p>{content}</p>
+      <p className="text-sm md:text-base">{content}</p>
     </div>
   );
 };
@@ -20,12 +20,16 @@ interface CardsProps {
 
 const Cards: React.FC<CardsProps> = ({ cardData }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center text-white justify-center w-full space-y-5 lg:space-x-20 py-10 lg:py-0">
-      {cardData.map((card, index) => (
-        <Card key={index} image={card.image} content={card.content} />
-      ))}
+    <div className="relative flex flex-col items-center">
+      {/* Cards Container - Adjusted for Overlay Effect */}
+      <div className="relative -mt-16 flex flex-wrap justify-center gap-4 lg:gap-8 px-4 lg:px-16  h-full w-full">
+        {cardData.map((card, index) => (
+          <Card key={index} image={card.image} content={card.content} />
+        ))}
+      </div>
     </div>
   );
 };
+
 
 export default Cards;

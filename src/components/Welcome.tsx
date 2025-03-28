@@ -2,10 +2,10 @@ import { ArrowRightIcon } from "@heroicons/react/20/solid";
 
 const Welcome = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center w-full px-4 lg:px-16 py-5 lg:py-20 space-y-10 lg:space-y-0">
+    <div className="flex flex-col lg:flex-row justify-center items-center w-full px-4 lg:px-16 py-5 space-y-10 lg:space-y-0 relative">
       {/* Left part */}
-      <div className="w-full lg:w-2/3 flex justify-center items-center">
-        <div className="relative w-full lg:mx-20 h-72 lg:h-[500px] rounded-lg overflow-hidden">
+      <div className="w-full lg:w-2/3 flex justify-center items-center p-3">
+        <div className="relative w-full h-96 lg:h-[500px] rounded-lg overflow-hidden">
           {/* Top Purple Box (Overlay) */}
           <div className="bg-purple-700 absolute top-1 w-full h-[90%] rounded-xl shadow-lg"></div>
           {/* Bottom White Box */}
