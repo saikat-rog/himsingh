@@ -1,5 +1,5 @@
 const Introduce = () => {
-    return <div className="flex flex-col items-center py-10 bg-primary">
+    return <div className="flex flex-col items-center text-center py-10 bg-primary">
         <h3 className="bg-secondary px-3 py-1 my-5">Introducing</h3>
         <h1 className="text-bgWhite">Freelancing for Web Designers</h1>
         <img src="\assets\intro.png" alt="" className="p-10"/>

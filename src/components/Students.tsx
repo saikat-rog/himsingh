@@ -22,7 +22,7 @@ const features = [
   ];
   
 const Students  = () => {
-    return <div className="flex flex-col justify-center items-center h-full">
+    return <div className="flex flex-col justify-center text-center items-center h-full">
         {/* Heading2 */}
       <div className="my-10 lg:my-20 flex flex-col items-center">
         <img src="/assets/students.png" alt="" className="w-100 lg:w-150" />
@@ -41,7 +41,7 @@ const Students  = () => {
         <div className="w-full px-6 lg:w-1/2 mx-auto space-y-15">
 
           {/* List */}
-          <div className="flex flex-col items-start space-y-1">
+          <div className="flex flex-col items-start text-start space-y-1">
             <ul className="space-y-5">
               {features.map((item, index) => (
                 <li key={index} className="flex items-center space-x-2">
