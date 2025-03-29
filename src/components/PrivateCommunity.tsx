@@ -41,7 +41,7 @@ const PrivateCommunity = () => {
         {benefitsData.map((benefit, index) => (
           <div
             key={index}
-            className="bg-gray2 rounded-xl outline-1 outline-gray-700 p-6"
+            className="bg-gray2 rounded-xl outline-1 outline-white/20 p-6"
           >
             <div className="flex flex-col items-start">
               <div className="p-2 rounded-xl border-1 border-gray-700 mb-4">
