@@ -4,7 +4,7 @@ const CourseLearning = () => {
       {/* Heading */}
       <h3 className="bg-secondary p-2 my-5">Course Learning</h3>
       <p className="text-white">After completing my courses you will</p>
-      <div className="lg:block w-5/7 my-10 space-y-10">
+      <div className="lg:block w-6/7 my-10 space-y-10">
         {[
           {
             img: "/assets/pay.svg",
@@ -43,9 +43,9 @@ const CourseLearning = () => {
               index % 2 === 0 ? "md:items-start" : "md:items-end"
             } justify-center items-center`}
           >
-            <div className="flex flex-row rounded-xl shadow-lg sm:px-5 sm:py-5 w-full h-48 md:w-2/3 items-center space-x-5 bg-white">
+            <div className="flex flex-row rounded-xl shadow-lg sm:px-5 sm:py-5 w-full p-5 md:w-2/3 items-center space-x-5 bg-white">
               <img src={item.img} alt="" />
-              <div className="text-[20px] font-bold">{item.text}</div>
+              <div className="text-[15px] lg:text-[20px] font-bold">{item.text}</div>
             </div>
           </div>
         ))}
