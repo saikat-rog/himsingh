@@ -1,13 +1,97 @@
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
 
 const CourseBenefits = () => {
+
+  const benefitsData: Benefit[] = [
+    {
+      title: "😔 Stuck working with low-paying, soul-sucking, always-complaining clients?",
+      description: "",
+    },
+    {
+      title: "You want to find, manage and work with high paying foreign clients",
+      description: "",
+    },
+    {
+      title: "You want to gain time, location and financial independence",
+      description: "",
+    },
+    {
+      title: "You are from lower middle class and want to support your family",
+      description: "",
+    },
+    {
+      title: "You want to make money online with or without having a skill",
+      description: "",
+    },
+    {
+      title: "You are tired of low paying, soul sucking clients",
+      description: "",
+    },
+    {
+      title: "You can't afford a college education or don't want to go to college",
+      description: "",
+    },
+    {
+      title: "You want to travel, enjoy and work from anywhere in the world",
+      description: "",
+    },
+    {
+      title: "😫 Earning only ₹10,000-₹20,000 per month when you deserve ₹1-5 lakh monthly?",
+      description: "",
+    },
+    {
+      title: "👀 Watching others succeed with international clients while you're still figuring out where to start?",
+      description: "",
+    },
+    {
+      title: "🤔 Confused about how to approach international clients who pay in dollars?",
+      description: "",
+    },
+    {
+      title: "🤝 Nervous about speaking English with foreign clients on calls?",
+      description: "",
+    },
+    {
+      title: "📱 Sending messages to potential clients but getting ignored or rejected?",
+      description: "",
+    },
+    {
+      title: "💸 Unsure how much to charge for your services?",
+      description: "",
+    },
+    {
+      title: "🇮🇳 Unsure how to stand out when clients think \"Indian = cheap\"?",
+      description: "",
+    },
+    {
+      title: "🔎 Constantly searching for \"genuine\" online income methods but finding only scams and false promises?",
+      description: "",
+    },
+    {
+      title: "👨‍👩‍👧‍👦 Unable to provide the lifestyle your family dreams of despite your hard work?",
+      description: "",
+    },
+    {
+      title: "🏖 Ready to break free from local jobs and work from anywhere?",
+      description: "",
+    },
+    {
+      title: "🤯 Overwhelmed by cold messaging, portfolios, and setting rates?",
+      description: "",
+    },
+    {
+      title: "🗂️ In need of a step-by-step plan to land international clients?",
+      description: "",
+    },
+  ];
+
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
       {/* heading */}
-      <h1 className="text-white my-15 text-center"><span className="text-secondary">My courses </span>are for you, if…</h1>
+      <h1 className="text-white my-15 text-center"><span className="text-secondary">Is This You? </span>Are You...</h1>
 
       {/* benefits */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-10 lg:px-40">
         {benefitsData.map((benefit, index) => (
           <div
             key={index}
@@ -40,40 +124,6 @@ interface Benefit {
   description: string;
 }
 
-const benefitsData: Benefit[] = [
-  {
-    title: "You hate working for someone and want to be your own boss",
-    description: "",
-  },
-  {
-    title: "You want to find, manage and work with high paying foreign clients",
-    description: "",
-  },
-  {
-    title: "You want to gain time, location and financial independence",
-    description: "",
-  },
-  {
-    title: "You are from lower middle class and want to support your family",
-    description: "",
-  },
-  {
-    title: "You want to make money online with or without having a skill",
-    description: "",
-  },
-  {
-    title: "You are tired of low paying, soul sucking clients",
-    description: "",
-  },
-  {
-    title:
-      "You can't afford a college education or don't want to go to college",
-    description: "",
-  },
-  {
-    title: "You want to travel, enjoy and work from anywhere in the world",
-    description: "",
-  },
-];
+
 
 export default CourseBenefits;
