@@ -6,8 +6,8 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, content, price }) => {
   return (
-    <div className="flex flex-col items-center justify-between w-[280px] md:w-[350px] lg:w-[300px] min-h-[250px] rounded-xl bg-gray p-6 space-y-4 text-center shadow-md">
-      <h1 className="text-secondary text-lg font-semibold">{title}</h1>
+    <div className="flex flex-col items-center justify-between w-[280px] md:w-[320px] lg:w-[350px] min-h-[220px] lg:min-h-[320px] rounded-xl bg-gray p-6 space-y-4 text-center shadow-md">
+      <h3 className="text-secondary text-lg font-semibold">{title}</h3>
       <p className="flex-grow">{content}</p>
 
       {/* Price Section */}

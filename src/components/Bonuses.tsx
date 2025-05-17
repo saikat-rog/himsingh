@@ -36,11 +36,13 @@ const cardData = [
 const Bonuses = () => {
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
-      
       {/* Heading */}
       <div className="flex flex-col text-center items-center space-y-6 py-8">
-        <div className="bg-secondary px-4 py-1">
-          <h3>Bonuses</h3>
+        <div className="flex flex-row items-center space-x-2">
+        <h3 className="text-white">If you enroll now you also get this <span className="bg-secondary px-4 py-1 text-primary">BONUSES</span></h3>
+        {/* <div className="bg-secondary px-4 py-1">
+          <h3>BONUSES </h3>
+        </div> */}
         </div>
         <p className="text-white">
           That makes “PRO FREELANCER BUNDLE” a must have toolkit for freelancers

@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div className="flex flex-col space-y-20 w-full bg-gray text-bgWhite text-center py-4">
       <div className="flex flex-col lg:flex-row justify-center p-10 lg:p-20 space-y-20 lg:space-x-4">
-        
         {/* Left part */}
         <div className="lg:w-2/3 flex flex-col items-start space-y-10">
           <div className="flex flex-col text-start space-y-4">
@@ -31,13 +30,28 @@ const Footer = () => {
           <div className="w-1/2 flex flex-col">
             <ul className="space-y-4">
               <li>
-                <img src="\assets\youtube.svg" alt="" />
+                <div className="bg-white/10 backdrop-blur-md flex rounded-full w-10 h-10 items-center p-1">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2021/09/11/18/21/youtube-6616310_1280.png"
+                    alt=""
+                  />
+                </div>
               </li>
               <li>
-                <img src="\assets\instagram.svg" alt="" />
+                <div className="bg-white/10 backdrop-blur-md flex rounded-full w-10 h-10 items-center p-2.5">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2022/04/01/05/40/app-7104075_1280.png"
+                    alt=""
+                  />
+                </div>
               </li>
               <li>
-                <img src="\assets\twiter.svg" alt="" />
+                <div className="bg-white/10 backdrop-blur-md flex rounded-full w-10 h-10 items-center p-2.5">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/08/23/22/59/linked-in-2674741_1280.png"
+                    alt=""
+                  />
+                </div>
               </li>
             </ul>
           </div>

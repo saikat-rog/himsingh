@@ -37,6 +37,7 @@ const PrivateCommunity = () => {
       </p>
       <img src="\assets\privatecommunity.png" alt="" className="my-10"/>
 
+      <h1 className="text-secondary pb-10 md:pb-20 text-center">Features: Gigs | Collaboration | Feedback | Accountability Partners</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-5 text-white">
         {benefitsData.map((benefit, index) => (
           <div

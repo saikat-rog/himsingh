@@ -8,34 +8,6 @@ const CourseBenefits = () => {
       description: "",
     },
     {
-      title: "You want to find, manage and work with high paying foreign clients",
-      description: "",
-    },
-    {
-      title: "You want to gain time, location and financial independence",
-      description: "",
-    },
-    {
-      title: "You are from lower middle class and want to support your family",
-      description: "",
-    },
-    {
-      title: "You want to make money online with or without having a skill",
-      description: "",
-    },
-    {
-      title: "You are tired of low paying, soul sucking clients",
-      description: "",
-    },
-    {
-      title: "You can't afford a college education or don't want to go to college",
-      description: "",
-    },
-    {
-      title: "You want to travel, enjoy and work from anywhere in the world",
-      description: "",
-    },
-    {
       title: "😫 Earning only ₹10,000-₹20,000 per month when you deserve ₹1-5 lakh monthly?",
       description: "",
     },
@@ -60,11 +32,11 @@ const CourseBenefits = () => {
       description: "",
     },
     {
-      title: "🇮🇳 Unsure how to stand out when clients think \"Indian = cheap\"?",
+      title: `🇮🇳 Unsure how to stand out when clients think "Indian = cheap"?`,
       description: "",
     },
     {
-      title: "🔎 Constantly searching for \"genuine\" online income methods but finding only scams and false promises?",
+      title: `🔎 Constantly searching for "genuine" online income methods but finding only scams and false promises?`,
       description: "",
     },
     {
@@ -77,10 +49,6 @@ const CourseBenefits = () => {
     },
     {
       title: "🤯 Overwhelmed by cold messaging, portfolios, and setting rates?",
-      description: "",
-    },
-    {
-      title: "🗂️ In need of a step-by-step plan to land international clients?",
       description: "",
     },
   ];
