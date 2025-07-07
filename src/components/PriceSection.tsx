@@ -24,7 +24,7 @@ const PricingSection = () => {
             className="absolute top-15 right-10 w-70"
           />
           {/* Top Purple Box (Overlay) */}
-          <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
+          <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[200px] md:w[250px] lg:w-[350px] h-[90%] top-7 lg:top-12 left-50 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
             {/* Title */}
             <h3 className="text-secondary">Web Career Ignite</h3>
 
@@ -33,8 +33,7 @@ const PricingSection = () => {
 
             {/* Description */}
             <p className="text-center text-sm mt-2 text-neutral-400">
-              Master Figma, create stunning & responsive websites, and
-              collaborate like a pro.
+              Master Figma, create stunning & responsive websites
             </p>
 
             {/* Includes Section */}
@@ -59,12 +58,6 @@ const PricingSection = () => {
                 </span>
                 4 private 30-min calls with our mentors
               </p>
-              <p className="flex items-center gap-2">
-                <span>
-                  <img src="/assets/tick.svg" alt="" className="h-5" />
-                </span>
-                Access to private Flux Community
-              </p>
             </div>
 
             {/* CTA Button */}
@@ -74,7 +67,7 @@ const PricingSection = () => {
           </div>
 
           {/* Bottom White Box */}
-          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[250px] md:w[250px] lg:w-[350px] h-full bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary hover:scale-108 transition-transform duration-600 ease-in-out shadow-2xl hover:shadow-secondary">
+          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[250px] md:w[300px] lg:w-[380px] h-full bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary hover:scale-108 transition-transform duration-600 ease-in-out shadow-2xl hover:shadow-secondary active:shadow-secondary">
             {/* Title */}
             <h3 className="text-secondary text-center">
               Figma for Web Designers 2.0
@@ -123,7 +116,7 @@ const PricingSection = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold transition duration-300 ease-in-out hover:bg-white hover:shadow-[0_0_20px_4px_rgba(255,59,48,0.6)]">
+            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold transition duration-300 ease-in-out hover:bg-white active:bg-white hover:shadow-[0_0_20px_4px_rgba(255,59,48,0.6)]">
               Enroll Now
             </button>
           </div>
