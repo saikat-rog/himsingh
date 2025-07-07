@@ -16,7 +16,7 @@ const PricingSection = () => {
       </div>
 
       {/* Price boxes */}
-      <div className="w-[400px] lg:w-[800px] justify-center items-center ">
+      <div className="w-[500px] lg:w-[800px] justify-center items-center ">
         <div className="relative lg:w-full h-140 lg:h-170 rounded-lg ">
           <img
             src="/assets/soldout.png"
@@ -24,7 +24,7 @@ const PricingSection = () => {
             className="absolute top-15 right-10 w-70"
           />
           {/* Top Purple Box (Overlay) */}
-          <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
+          <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[300px] md:w[250px] lg:w-[350px] h-[90%] top-7 lg:top-12 left-60 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
             {/* Title */}
             <h3 className="text-secondary">Web Career Ignite</h3>
 
@@ -74,7 +74,7 @@ const PricingSection = () => {
           </div>
 
           {/* Bottom White Box */}
-          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary hover:scale-108 transition-transform duration-600 ease-in-out shadow-2xl hover:shadow-secondary">
+          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[250px] sm:w-[350px] md:w[250px] lg:w-[350px] h-[98%] bottom-0 right-25 sm:right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary hover:scale-108 transition-transform duration-600 ease-in-out shadow-2xl hover:shadow-secondary">
             {/* Title */}
             <h3 className="text-secondary text-center">
               Figma for Web Designers 2.0
