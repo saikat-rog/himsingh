@@ -57,7 +57,7 @@ const Students  = () => {
           </div>
 
           {/* Button */}
-          <CTAButton />
+          <CTAButton text="" />
           <p className="text-white">⚡Get Full Access</p>
         </div>
       </div>
