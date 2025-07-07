@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/20/solid";
+// import CTAButton from "@/utils/CTAButton";
 
 const achievements = [
   {
@@ -60,12 +60,8 @@ const Achievements = () => {
           </div>
 
           {/* Button */}
-          <button className="flex flex-row justify-center items-center bg-primary rounded-full p-2">
-            <span className="text-primary bg-white px-2 py-2 rounded-full font-bold">
-              <ArrowRightIcon className="w-5 h-5 text-primary font-bold" />
-            </span>
-            <span className="px-5 text-white">Enroll Now</span>
-          </button>
+          {/* <CTAButton /> */}
+          <p>⚡Get Full Access</p>
         </div>
       </div>
     </div>

@@ -1,22 +1,30 @@
-import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import CTAButton from "@/utils/CTAButton";
 
 const CourseBenefits = () => {
 
   const benefitsData: Benefit[] = [
     {
+      title: "🔎 You've tried Fiverr or Upwork and didn't get results?",
+      description: "",
+    },
+    {
       title: "😔 Stuck working with low-paying, soul-sucking, always-complaining clients?",
       description: "",
     },
     {
-      title: "😫 Earning only ₹10,000-₹20,000 per month when you deserve ₹1-5 lakh monthly?",
+      title: "😟 Have no portfolio or experience and think that’s stopping you?",
       description: "",
     },
     {
-      title: "👀 Watching others succeed with international clients while you're still figuring out where to start?",
+      title: "🤑 Want to earn in USD but don’t know how to start?",
       description: "",
     },
     {
-      title: "🤔 Confused about how to approach international clients who pay in dollars?",
+      title: "😫 Earning only ₹10K - ₹20K per month when you deserve ₹1-5 lakhs monthly?",
+      description: "",
+    },
+    {
+      title: "🤔 Unsure about how to approach international clients who pay in dollars?",
       description: "",
     },
     {
@@ -24,31 +32,23 @@ const CourseBenefits = () => {
       description: "",
     },
     {
-      title: "📱 Sending messages to potential clients but getting ignored or rejected?",
+      title: `🎓 Can't afford college or don’t want to go?`,
       description: "",
     },
     {
-      title: "💸 Unsure how much to charge for your services?",
+      title: `👨‍👩‍👧‍👦 Unable to live the lifestyle you always dreamt despite your hard work?`,
       description: "",
     },
     {
-      title: `🇮🇳 Unsure how to stand out when clients think "Indian = cheap"?`,
+      title: "🏖 Ready to live a life of freedom and work from anywhere like me?",
       description: "",
     },
     {
-      title: `🔎 Constantly searching for "genuine" online income methods but finding only scams and false promises?`,
+      title: "🗂️ In need of a step-by-step plan to find international clients?",
       description: "",
     },
     {
-      title: "👨‍👩‍👧‍👦 Unable to provide the lifestyle your family dreams of despite your hard work?",
-      description: "",
-    },
-    {
-      title: "🏖 Ready to break free from local jobs and work from anywhere?",
-      description: "",
-    },
-    {
-      title: "🤯 Overwhelmed by cold messaging, portfolios, and setting rates?",
+      title: "🤷‍♂️ Watched others succeed but don’t know what you’re missing?",
       description: "",
     },
   ];
@@ -56,7 +56,7 @@ const CourseBenefits = () => {
   return (
     <div className="flex flex-col items-center p-3 bg-[url('.\assets\bg-grid.png')] bg-cover bg-center h-full bg-primary">
       {/* heading */}
-      <h1 className="text-white my-15 text-center"><span className="text-secondary">Is This You? </span>Are You...</h1>
+      <h1 className="text-white my-15 text-center"><span className="text-secondary">My courses </span>are for you, if...</h1>
 
       {/* benefits */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-10 lg:px-40">
@@ -76,13 +76,13 @@ const CourseBenefits = () => {
         ))}
       </div>
 
+      <p className="text-white text-center mt-10 mb-4">
+        If you said YES to any of these, this course is made for YOU!
+      </p>
+
       {/* Button */}
-      <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5 mt-15">
-        <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
-          <ArrowRightIcon className="w-5 lg:w-8 h-5 lg:h-8 text-primary font-bold" />
-        </span>
-        <div className="px-3 lg:px-6 text-xl font-semibold">Enroll Now</div>
-      </button>
+      <CTAButton text="Enroll Now"/>
+      <p className="text-white">⚡Get Full Access</p>
     </div>
   );
 };

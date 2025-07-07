@@ -7,6 +7,10 @@
 
 @import "tw-animate-css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
     --font-grotesk: Grotesk, "sans-serif";
     --color-primary: #1D1D1F;

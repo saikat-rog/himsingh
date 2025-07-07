@@ -2,9 +2,10 @@ interface CardProps {
   title: string;
   content: string;
   price?: boolean;
+  price_amount?: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, content, price }) => {
+const Card: React.FC<CardProps> = ({ title, content, price, price_amount }) => {
   return (
     <div className="flex flex-col items-center justify-between w-[280px] md:w-[320px] lg:w-[350px] min-h-[220px] lg:min-h-[320px] rounded-xl bg-gray p-6 space-y-4 text-center shadow-md">
       <h3 className="text-secondary text-lg font-semibold">{title}</h3>
@@ -13,10 +14,17 @@ const Card: React.FC<CardProps> = ({ title, content, price }) => {
       {/* Price Section */}
       {price && (
         <div className="flex flex-row justify-center items-center space-x-3 w-full">
-          <p>
-            Rs. <span className="line-through decoration-red-500">6000</span>
-          </p>
-          <div className="text-secondary font-bold text-[30px]">FREE</div>
+          {price_amount !== "0" ? (
+            <p>
+              Rs.{" "}
+              <span className="line-through decoration-secondary">
+                {price_amount}
+              </span>
+            </p>
+          ) : (
+            <div className="text-secondary font-bold text-[30px]"></div>
+          )}
+          <div className="text-secondary font-bold text-[25px]">FREE</div>
         </div>
       )}
     </div>
@@ -38,6 +46,7 @@ const Cards: React.FC<CardsProps> = ({ cardData, price }) => {
             title={card.title}
             content={card.content}
             price={price}
+            price_amount={card.price_amount}
           />
         ))}
       </div>

@@ -7,72 +7,76 @@ import {
 
 const faqData = [
   {
-    question: "What is the course language?",
-    answer: "The course is primarily in Hindi, with some English terminology.",
+    question: "I don’t speak English fluently. Can I still succeed?",
+    answer: "Yes. Scripts are provided. Lessons are in Hindi + simple English.",
   },
   {
-    question:
-      "I am a newbie / experienced freelancer. Will this course help me?",
-    answer:
-      "Yes, the course is designed for both beginners and experienced freelancers looking to scale their business.",
+    question: "I don’t have a laptop. Can I do it on my phone?",
+    answer: "Yes. Many students started with just a phone.",
   },
   {
-    question:
-      "Will I receive a certificate of completion after finishing the course?",
-    answer:
-      "Yes, upon successful completion of the course, you will receive a certificate.",
+    question: "Will I get lifetime access?",
+    answer: "Yes. Lifetime access + all updates.",
   },
   {
-    question:
-      "If I have any doubts or questions, will I be able to talk to Him for solutions and feedback?",
-    answer: "Yes, there will be opportunities for Q&A and interaction.",
+    question: "How soon will I get clients?",
+    answer: "Most students land clients in 40–60 days. It depends on implementation.",
   },
   {
-    question: "How is this course different from your YouTube videos?",
-    answer:
-      "This course provides a more structured and in-depth learning experience compared to the free content on YouTube.",
+    question: "Can I do this while in college or job?",
+    answer: "Yes. Just 2-3 hours/day is enough.",
   },
   {
-    question: "What is the refund policy for Pro Freelancer Bundle?",
-    answer: "We offer a 7-day no-questions-asked refund policy.",
+    question: "What if I don’t have any skills or experience?",
+    answer: "You’ll learn everything from scratch, including how to outsource and still earn profit.",
   },
   {
-    question: "Can I take this course even if I'm not very good at English?",
-    answer:
-      "Yes, as the course is primarily in Hindi, a strong command of English is not necessary.",
+    question: "What if I’m scared of talking to clients?",
+    answer: "You’ll get scripts for DMs, calls, and objections — plus mock sessions inside the community.",
   },
   {
-    question: "What is the course validity?",
-    answer: "You will have lifetime access to the course materials.",
+    question: "Is there any live support?",
+    answer: "Yes. We host monthly live Q&A sessions and provide community support.",
+  },
+  {
+    question: "Can I get a refund if it doesn’t work for me?",
+    answer: "Absolutely. There’s a 14-day no-questions-asked refund guarantee.",
+  },
+  {
+    question: "Do I need a college degree?",
+    answer: "No. All you need is a willingness to learn and a phone to get started.",
+  },
+];
+
+
+const stats = [
+  {
+    title: "60 Lakh +",
+    desc: "Top Freelancers earn annually in India",
+  },
+  {
+    title: "15 Million +",
+    desc: "Total number of freelancers in India",
+  },
+  {
+    title: "30 Billion +",
+    desc: "Freelance Industry to grow by 2025",
   },
 ];
 
 const FAQS = () => {
   return (
     <div className="bg-primary py-12 text-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto space-y-20 px-4">
         {/* Top Section */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h2 className="text-2xl font-bold mb-2">Be a part of the future</h2>
           <h2 className="text-2xl font-bold">of work...</h2>
         </div>
 
         {/* Stats Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 text-center">
-          {[
-            {
-              title: "60 Lakh +",
-              desc: "Top Freelancers earn annually in India",
-            },
-            {
-              title: "15 Million +",
-              desc: "Total number of freelancers in India",
-            },
-            {
-              title: "30 Billion +",
-              desc: "Freelance Industry to grow by 2025",
-            },
-          ].map((stat, index) => (
+          {stats.map((stat, index) => (
             <div
               key={index}
               className={`flex flex-col items-center ${
@@ -107,8 +111,6 @@ const FAQS = () => {
             ))}
           </Accordion>
         </div>
-
-        
       </div>
     </div>
   );

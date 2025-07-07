@@ -1,10 +1,13 @@
 const PricingSection = () => {
   return (
-    <div className="w-full flex flex-col items-center gap-5 bg-primary py-10">
+    <div
+      id="courses"
+      className="w-full flex flex-col items-center gap-5 bg-primary py-10"
+    >
       <div className="w-full flex flex-col justify-center text-center px-5 items-center gap-2">
         <h3 className="text-secondary">Invest in your future</h3>
         <h1 className="text-white text-center mt-5">
-          Ready to Master Freelance?
+          Ready to Master Freelancing?
         </h1>
         <p className="text-neutral-400 text-center mt-2">
           Start with our Freelance course or dive into the Lancrr All Access
@@ -13,20 +16,20 @@ const PricingSection = () => {
       </div>
 
       {/* Price boxes */}
-      <div className="w-[400px] lg:w-[800px] justify-center items-center">
-        <div className="relative lg:w-full h-140 lg:h-170 rounded-lg overflow-hidden">
-
-            <img src="/assets/soldout.png" alt="" className="absolute top-15 right-10 w-70"/>
+      <div className="w-[400px] lg:w-[800px] justify-center items-center ">
+        <div className="relative lg:w-full h-140 lg:h-170 rounded-lg ">
+          <img
+            src="/assets/soldout.png"
+            alt=""
+            className="absolute top-15 right-10 w-70"
+          />
           {/* Top Purple Box (Overlay) */}
           <div className="bg-gray flex flex-col items-center justify-between p-5 absolute w-[200px] md:w[250px] lg:w-[350px] h-[85%] top-7 lg:top-12 left-45 lg:left-105  rounded-xl shadow-lg outline outlien-1 outline-secondary text-white opacity-30">
-
             {/* Title */}
-            <h3 className="text-secondary">
-              Web Career Ignite
-            </h3>
+            <h3 className="text-secondary">Web Career Ignite</h3>
 
             {/* Price */}
-            <h1 className="text-3xl font-bold mt-2">$3495</h1>
+            <h1 className="text-3xl font-bold mt-2">$930</h1>
 
             {/* Description */}
             <p className="text-center text-sm mt-2 text-neutral-400">
@@ -37,7 +40,7 @@ const PricingSection = () => {
             {/* Includes Section */}
             <div className="w-full flex flex-col items-start justify-start gap-2 mt-4">
               <p>Includes:</p>
-              
+
               <p className="flex items-center gap-2">
                 <span>
                   <img src="/assets/tick.svg" alt="" className="h-5" />
@@ -71,14 +74,18 @@ const PricingSection = () => {
           </div>
 
           {/* Bottom White Box */}
-          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary">
+          <div className="bg-gray flex flex-col items-center text-white justify-between p-4 w-[200px] md:w[250px] lg:w-[350px] h-[95%] bottom-0 right-40 lg:right-70 m-auto absolute inset-0 rounded-xl outline outlien-1 outline-secondary hover:scale-108 transition-transform duration-600 ease-in-out shadow-2xl hover:shadow-secondary">
             {/* Title */}
             <h3 className="text-secondary text-center">
               Figma for Web Designers 2.0
             </h3>
 
             {/* Price */}
-            <h1 className="text-3xl font-bold mt-2">$469</h1>
+            <div className="w-full flex flex-col items-center justify-center">
+              <h1 className="text-3xl font-bold mt-2">$24</h1>
+              <div className="w-full border-t border-gray-200 my-2" />
+              <h1 className="text-3xl font-bold">₹1990</h1>
+            </div>
 
             {/* Description */}
             <p className="text-center text-sm mt-2 text-neutral-400">
@@ -116,7 +123,7 @@ const PricingSection = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold hover:bg-opacity-80 transition">
+            <button className="mt-5 w-full bg-secondary text-gray px-5 py-2 rounded-lg font-semibold transition duration-300 ease-in-out hover:bg-white hover:shadow-[0_0_20px_4px_rgba(255,59,48,0.6)]">
               Enroll Now
             </button>
           </div>

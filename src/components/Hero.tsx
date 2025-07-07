@@ -6,17 +6,17 @@ const cardData = [
   {
     image: "/assets/welcome1.svg",
     content:
-      "Not confident in English? No problem! I'll give you the exact scripts and templates to impress international clients even with basic English skills.",
+      "Think ₹20K is good money? I'll break your limiting beliefs and show you how to earn 5-10X more with international clients who value your work.",
   },
   {
     image: "/assets/welcome2.svg",
     content:
-      "No portfolio? No experience? I'll show you how to build an impressive portfolio and position yourself as an expert from day one.",
+      "No time to learn new skills? Use my strategies to find clients, outsource the work, and still make profit.",
   },
   {
     image: "/assets/welcome3.svg",
     content:
-      "Only have a phone, no laptop? You can start implementing these strategies right away—no expensive equipment needed.",
+      "Can't afford expensive courses? This blueprint costs less than what your first international client will pay you for a single day's work.",
   },
 ];
 

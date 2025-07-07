@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import CTAButton from "@/utils/CTAButton";
 
 const Footer = () => {
   return (
@@ -7,21 +7,14 @@ const Footer = () => {
         {/* Left part */}
         <div className="lg:w-2/3 flex flex-col items-start space-y-10">
           <div className="flex flex-col text-start space-y-4">
-            <h1>We’d love to hear from you</h1>
+            <h1>Still Have Questions?</h1>
             <p className="w-2/3">
-              Have a question for us? Want to suggest a creator we should
-              interview? Interested in partnering with us? Just want to say hi?
-              We’ve got a form for that.
+              Can&apos;t find the answer? "Have a question? Want to partner with us? Just want to say hi ? Reach out!
             </p>
           </div>
 
           {/* Button */}
-          <button className="flex flex-row justify-center items-center bg-white rounded-full p-1.5 lg:p-2 mb-5">
-            <span className="text-primary bg-secondary px-2 py-2 rounded-full font-bold">
-              <ArrowRightIcon className="w-5 lg:w-6 h-5 lg:h-6 text-primary font-bold" />
-            </span>
-            <span className="px-3 lg:px-4 text-gray">Enroll Now</span>
-          </button>
+          <CTAButton text="Say Hi 👋" />
         </div>
 
         {/* Right part */}
