@@ -15,16 +15,16 @@ const Card: React.FC<CardProps> = ({ title, content, price, price_amount }) => {
       {price && (
         <div className="flex flex-row justify-center items-center space-x-3 w-full">
           {price_amount !== "0" ? (
-            <p>
+            <div className="text-3xl">
               Rs.{" "}
               <span className="line-through decoration-secondary">
                 {price_amount}
               </span>
-            </p>
+            </div>
           ) : (
             <div className="text-secondary font-bold text-[30px]"></div>
           )}
-          <div className="text-secondary font-bold text-[25px]">FREE</div>
+          <div className="text-secondary font-bold">FREE</div>
         </div>
       )}
     </div>

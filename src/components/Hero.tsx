@@ -18,6 +18,21 @@ const cardData = [
     content:
       "Can't afford expensive courses? This blueprint costs less than what your first international client will pay you for a single day's work.",
   },
+  {
+    image: "/assets/welcome3.svg",
+    content:
+      "Think ₹20K is good money? I'll break your limiting beliefs and show you how to earn 5-10X more with international clients who value your work.",
+  },
+  {
+    image: "/assets/welcome3.svg",
+    content:
+      "No time to learn new skills? Use my strategies to find clients, outsource the work, and still make profit.",
+  },
+  {
+    image: "/assets/welcome3.svg",
+    content:
+      "Can't afford expensive courses? This blueprint costs less than what your first international client will pay you for a single day's work.",
+  }
 ];
 
 const Hero = () => {

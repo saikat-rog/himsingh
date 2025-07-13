@@ -77,12 +77,12 @@ const CourseBenefits = () => {
       </div>
 
       <p className="text-white text-center mt-10 mb-4">
-        If you said YES to any of these, this course is made for YOU!
+        If you said yes to any of these, this course is made for YOU!
       </p>
 
       {/* Button */}
       <CTAButton text="Enroll Now"/>
-      <p className="text-white">⚡Get Full Access</p>
+      <p className="text-white">⚡Get Instant Access</p>
     </div>
   );
 };

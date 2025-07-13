@@ -1,6 +1,6 @@
 const MeetYourInstructor = () => {
   return (
-    <div className="flex flex-col items-center py-20 bg-gray px-6">
+    <div id="meetyourinstructor" className="flex flex-col items-center py-20 bg-gray px-6">
       {/* Heading */}
       <h1 className="text-white text-3xl font-bold mb-10 lg:mb-20 flex items-center gap-3 flex-wrap">
         Why I built

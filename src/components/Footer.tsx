@@ -1,15 +1,17 @@
 import CTAButton from "@/utils/CTAButton";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="flex flex-col space-y-20 w-full bg-gray text-bgWhite text-center py-4">
-      <div className="flex flex-col lg:flex-row justify-center p-10 lg:p-20 space-y-20 lg:space-x-4">
+      <div className="flex w-full flex-col lg:flex-row justify-between p-10 lg:p-20 space-y-20 lg:space-x-4">
         {/* Left part */}
-        <div className="lg:w-2/3 flex flex-col items-start space-y-10">
+        <div className="w-2xl flex flex-col items-start space-y-10">
           <div className="flex flex-col text-start space-y-4">
             <h1>Still Have Questions?</h1>
             <p className="w-2/3">
-              Can&apos;t find the answer? "Have a question? Want to partner with us? Just want to say hi ? Reach out!
+              Can&apos;t find the answer? "Have a question? Want to partner with
+              us? Just want to say hi ? Reach out!
             </p>
           </div>
 
@@ -18,7 +20,7 @@ const Footer = () => {
         </div>
 
         {/* Right part */}
-        <div className="lg:w-1/3 flex flex-row">
+        <div className="max-w-xl flex flex-row">
           {/* Social */}
           <div className="w-1/2 flex flex-col">
             <ul className="space-y-4">
@@ -50,17 +52,28 @@ const Footer = () => {
           </div>
 
           {/* Options */}
-          <div className="w-1/2 flex flex-col text-start justify-between space-y-4">
-            <ul>
-              <li>The Colin & Samir Show</li>
-              <li>Creator Support</li>
-              <li>Creator Startup</li>
-              <li>Contact</li>
+          <div className="w-xl flex flex-col text-start justify-between space-y-5">
+            <ul className="space-y-3">
+              <li>
+                <Link to="/about">📘 About Lancrr</Link>
+              </li>
+              <li>
+                <Link to="/why-join-lancrr">💼 Why join Lancrr</Link>
+              </li>
+              <li>
+                <a href="#meetyourinstructor">🧑‍🏫 Meet Your Instructor(s)</a>
+              </li>
+              <li>
+                <Link to="">📩 Get Support</Link>
+              </li>
+              <li>
+                <Link to="">🧠 Student Results & Reviews</Link>
+              </li>
             </ul>
 
             {/* Copyright Text */}
             <p style={{ color: "gray", fontWeight: 100 }}>
-              © {new Date().getFullYear()} Your Company. All rights reserved.
+              © {new Date().getFullYear()} Lancrr. All rights reserved.
             </p>
           </div>
         </div>

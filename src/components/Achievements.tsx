@@ -61,7 +61,7 @@ const Achievements = () => {
 
           {/* Button */}
           {/* <CTAButton /> */}
-          <p>⚡Get Full Access</p>
+          <p>⚡Get Instant Access</p>
         </div>
       </div>
     </div>

@@ -30,7 +30,7 @@ const MoneyBackGurantee = () => {
 
         {/* Button */}
         <CTAButton text="Enroll Now" />
-        <p>⚡Get Full Access</p>
+        <p>⚡Get Instant Access</p>
       </div>
     </div>
   );

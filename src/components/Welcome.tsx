@@ -19,12 +19,15 @@ const Welcome = () => {
           Become a world-class freelancer with Lancrr
         </h1>
         <p className="text-lg lg:text-base md:text-lg text-white">
-          I will teach you how pro freelancers find and close high-ticket clients that pay $1000-$5000 per month consistently, all through social media without using paid ads, Upwork, or Fiverr.
+          I will teach you how pro freelancers find and close high-ticket
+          international clients that pay $1000&mdash;$5000 (₹1&mdash;5 Lakh) per month&mdash;using social media and AI. Join 2500+ Indians who&apos;ve escaped
+          ₹20K/month tiring jobs and earn up to ₹1 Lakh/month internationally
+          with freelancing.
         </p>
 
         {/* Button */}
         <CTAButton text="Enroll Now" />
-        <p className="text-white">⚡Get Full Access</p>
+        <p className="text-white">⚡Get Instant Access</p>
       </div>
     </div>
   );
